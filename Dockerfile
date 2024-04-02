@@ -2,7 +2,7 @@ FROM bellsoft/liberica-openjdk-alpine:21-cds
 
 WORKDIR /app
 
-COPY target/my-app.jar /app
+COPY target/github-action-spring-boot-example.jar /app
 
-CMD ["java", "-jar", "my-app.jar"]
+CMD ["java", "-jar", "github-action-spring-boot-example.jar"]
 
