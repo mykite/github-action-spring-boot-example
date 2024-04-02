@@ -1,4 +1,4 @@
-FROM adoptopenjdk:17-jdk-hotspot
+FROM bellsoft/liberica-openjdk-alpine:21-cds
 
 WORKDIR /app
 
